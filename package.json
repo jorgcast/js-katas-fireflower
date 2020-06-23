@@ -1,28 +1,30 @@
 {
-  "name": "js-katas-template",
+  "name": "js-katas-fireflower",
   "version": "1.0.0",
-  "description": "JS katas boilerplate to create your own JS katas project.",
+  "description": "JS Katas - Level Fire Flower",
   "author": "Jorge Caster <hola@jorge-castano.com>",
   "keywords": [
     "katas",
     "js-katas",
-    "katas template",
+    "fireflower",
+    "katas fireflower",
     "template",
     "boilerplate"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/jorgcast/js-katas-template",
+  "homepage": "https://github.com/jorgcast/js-katas-fireflower",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jorgcast/js-katas-template.git"
+    "url": "https://github.com/jorgcast/js-katas-fireflower.git"
   },
   "bugs": {
-    "url": "https://github.com/jorgcast/js-katas-template/issues"
+    "url": "https://github.com/jorgcast/js-katas-fireflower/issues"
   },
   "scripts": {
     "test": "mocha --require babel-register -w --watch-files src",
     "test1": "mocha --require babel-register -w --watch-files src -f #kata-1",
-    "test2": "mocha --require babel-register -w --watch-files src -f #kata-2"
+    "test2": "mocha --require babel-register -w --watch-files src -f #kata-2",
+    "test3": "mocha --require babel-register -w --watch-files src -f #kata-3"
   },
   "dependencies": {
     "mocha": "^8.0.1"
